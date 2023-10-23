@@ -1,3 +1,6 @@
+# Better tab completion
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
+
 # HG function to sync the main bookmark
 function move-main {
 	param (
